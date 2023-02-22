@@ -121,14 +121,11 @@ const date = `${current.getDate()}/${current.getMonth() + 1}/${current.getFullYe
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <p>Vancouver, BC Weather <br/>
+        <p>Vancouver, BC Weather <br/></p>
         Last updated: {date}
         <p>{data}</p>
-        </p>
         <p>By Mai Anh N.</p>
         <div className={styles.center}>
-    
-
           <Image 
             src="/weather-forecast-logo.png"
             alt="Weather Forecast Logo"
