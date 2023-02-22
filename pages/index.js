@@ -125,7 +125,7 @@ const date = `${current.getDate()}/${current.getMonth() + 1}/${current.getFullYe
         Last updated: {date}
         <p>{data}</p>
         <p>By Mai Anh N.</p>
-        <div className={styles.center}>
+        <div className={styles.grid}>
           <Image 
             src="/weather-forecast-logo.png"
             alt="Weather Forecast Logo"
