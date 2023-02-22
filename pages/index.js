@@ -106,6 +106,7 @@ export default function Home() {
     }
     return () => {
       grabWeather.current = true;
+      fetchWeather();
     }
   }, [])
 
@@ -121,10 +122,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        {/* <p>Vancouver, BC Weather <br /></p>
+        <p>Vancouver, BC Weather <br /></p>
         Last updated: {date}
         <p>{data}</p>
-        <p>By Mai Anh N.</p> */}
+        <p>By Mai Anh N.</p>
         <div>
         <p>{data}</p>
           <Image
