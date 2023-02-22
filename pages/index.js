@@ -125,7 +125,6 @@ export default function Home() {
         <p>Vancouver, BC Weather <br /></p>
         Last updated: {date}
         <p>{data}</p>
-        <p>By Mai Anh N.</p>
         <div>
         <p>{data}</p>
           <Image
