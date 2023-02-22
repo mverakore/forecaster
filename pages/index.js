@@ -109,8 +109,8 @@ export default function Home() {
     }
   }, [])
 
-const current = new Date();
-const date = `${current.getDate()}/${current.getMonth() + 1}/${current.getFullYear()}`;
+  const current = new Date();
+  const date = `${current.getDate()}/${current.getMonth() + 1}/${current.getFullYear()}`;
 
   return (
     <>
@@ -121,18 +121,19 @@ const date = `${current.getDate()}/${current.getMonth() + 1}/${current.getFullYe
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <p>Vancouver, BC Weather <br/></p>
+        {/* <p>Vancouver, BC Weather <br /></p>
         Last updated: {date}
         <p>{data}</p>
-        <p>By Mai Anh N.</p>
-        <div className={styles.grid}>
-          <Image 
+        <p>By Mai Anh N.</p> */}
+        <div>
+        <p>{data}</p>
+          <Image
             src="/weather-forecast-logo.png"
             alt="Weather Forecast Logo"
             width={300}
             height={100}
             priority />
-          </div>
+        </div>
       </main>
     </>
   )
