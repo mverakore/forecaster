@@ -7,9 +7,9 @@ Meowcast is a weather app designed to give you accurate and up-to-date informati
 
 OpenWeather Api - <a href='https://openweathermap.org/forecast5'>5 day weather forecast</a>
 
-## Languages Used
+## Tools & Languages
 - Next js 13
-- OpenWeatherMap API
+- OpenWeather Api
 - Axios
 - CSS
 
