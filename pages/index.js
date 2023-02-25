@@ -104,9 +104,9 @@ export default function Home() {
   }
 
   useEffect(() => {
-    if (grabWeather.current === true) {
+    // if (grabWeather.current === true) {
       fetchWeather();
-    }
+    // }
     return () => {
       grabWeather.current = true;
     }
@@ -136,29 +136,29 @@ export default function Home() {
               alt="Meowcast Mascot"
               width={100}
               height={100}
-              />
+            />
           </div>
         </div>
         <div className={styles.title}>
-            <Image
-              src="/meowcast.svg"
-              alt="Meowcast Logo"
-              width={300}
-              height={100}
-              priority />
+          <Image
+            src="/meowcast.svg"
+            alt="Meowcast Logo"
+            width={300}
+            height={100}
+            priority />
           <p className={styles.subtext}>The Meowcast is a weather app designed to give you accurate and up-to-date information on the weather conditions for the week ahead.</p>
-          </div>
+        </div>
         <div>
           <div className={styles.weatherCont}>
             {data}
           </div>
 
-  
+
         </div>
 
       </div>
       <div className={styles.footer}>
-          By Mai Anh Nguyen
+        By Mai Anh Nguyen
       </div>
     </>
   )
